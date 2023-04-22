@@ -1,0 +1,107 @@
+h1{
+    text-align: center;
+    color: white;
+}
+body{
+    background-color: rgb(34, 43, 52);
+}
+.table-box{
+    display: flex;
+    justify-content: center;
+}
+table{
+    border-collapse:collapse;
+    font-size: 2.2em;
+    border-collapse: collapse;
+    padding: 10px 15px;
+    font-size: 2.2em;
+    border: 1px;
+    border: 1px solid rgb(24, 24, 24); 
+}
+th, td {
+    /* border: 1px solid rgb(24,24,24);*/
+    padding: 10px 15px;
+}
+
+.col-style{
+    width: 150px;
+}
+.img-check{
+   display: block;
+   margin: 0%;
+   width: 50px;
+    margin: auto;
+}
+.logo-equis {
+    font-size: 1.4em;
+    color: rgb(223, 8, 8);
+    font-weight: 900;
+    font-family: Tahoma, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.color-fam{
+    background-color: rgb(255, 120, 13);
+    color: white;
+    border: 0;
+}
+.color-row {
+    background-color: rgb(231,241,143);
+}
+h1{
+    text-align: center;
+    font-family: sans-serif;
+    
+    }
+    .color-fam{
+        background-color: rgb(255, 120, 13);
+    color: white;
+    border: 0;
+        
+    }
+    .col-arow{
+        background-color: rgb(156, 150, 145);
+    color: white;
+    border: 0;
+    }
+    .color-bron{
+        background-color: rgb(255, 120, 13);
+    color: white;
+    border: 0;
+    }
+    .color-gold{
+        background-color: rgb(255, 120, 13);
+    color: white;
+    border: 0;
+        font-family: sans-serif;
+    }
+    .color-plat{
+        background-color: rgb(255, 120, 13);
+        color: white;
+        border: 0;
+        font-family: sans-serif;
+    }
+    .color-plan {
+        background-color: rgb(211, 103, 15);
+        color: white;
+        border: 0;
+        font-family: sans-serif;
+    }
+    .color-mes{
+        background-color: rgb(211, 103, 15);
+        color: white;
+        border: 0;
+        font-family: sans-serif;
+    }
+    .color-por{
+        background-color: rgb(255, 120, 13);
+        color: white;
+        border: 0;
+        font-family: sans-serif;
+    }
+    .color-cartoon{
+        background-color: rgb(224, 214, 206);
+        color: white;
+        border: 0;
+        font-family: sans-serif;
+    }
