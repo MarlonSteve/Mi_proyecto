@@ -25,6 +25,9 @@ a{
     color: rgb(255, 249, 249);
     text-decoration: none;
 }
+a:hover{
+    color: aqua;
+}
 .main-nav{
     height: 100%;
    width: 1200px;
@@ -57,7 +60,7 @@ li:hover{
         background-color: rgb(64,64,64, .8);
         margin-top: 85px;
         padding-top: 1px
-        height: 100vh;
+        height 100vh;
         font-size: 0.9em;
     }
     .item-menu{
@@ -69,6 +72,7 @@ li:hover{
     .item-menu:hover{
         cursor: pointer;
     background-color: dodgerblue;  
+    color: black;
       }
     a{
         color: white;
