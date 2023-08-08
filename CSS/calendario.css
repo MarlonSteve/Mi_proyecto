@@ -100,4 +100,22 @@ img{
     width: 20px;
     height: 20px;
 }
+.Navidad{
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    position: absolute;
+    top: 10;
+    left: 20;
+    padding: 10px;
+    margin: 0;
+}
+.box12{
+    margin: 15;
+    padding: 20px;
+}
+.dia3{
+ background-color: rgb(78, 204, 204);
+}
 
