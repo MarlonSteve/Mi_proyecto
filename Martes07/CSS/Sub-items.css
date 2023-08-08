@@ -1,0 +1,52 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:Tahoma, sans-serif;
+}
+nav ul{
+    width: 100%;
+    background-color: rgb(48,48,48);
+   position: absolute;
+   list-style: none;
+}
+nav a{
+    text-decoration:none;
+    color: white;
+    display: block;
+    padding: 0 2.5em; 
+    font-size: 1.2rem;
+    text-align: center;
+}
+/*Menu de primer nivel*/
+nav > ul > li{
+    display: inline-block;
+    width: 250px;
+    line-height: 50px;
+}
+ul li{
+    position: relative;
+}
+nav a:hover{
+    background-color: goldenrod;
+}
+/*Menu de Segundo nivel*/
+nav li li{
+    max-height: 0;
+    overflow: hidden;
+   
+}
+nav li:hover > ul > li{
+    visibility: visible;
+    max-height: 500px;
+    overflow: visible; 
+    border: 1px solid rgb(225,225,225,0.7);
+}
+/*Menu de tercer nivel*/
+nav ul ul ul {
+    left: 100%;
+    top: 0;
+}
+
+
+

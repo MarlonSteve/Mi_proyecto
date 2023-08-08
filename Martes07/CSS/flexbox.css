@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+}
+.box-1{
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    background-color: goldenrod;
+    gap: 20px;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.8em;
+    margin: 20px;
+}
+.box-2{
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    background-color: goldenrod;
+    gap: 20px;
+}
+.box-3{
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    background-color: goldenrod;
+    gap: 20px;
+}
+.box-4{
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex;
+    width: 100%;
+    background-color: goldenrod;
+    gap: 20px;
+}
+.box-5{
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    width: 70%;
+    margin-left: 15%;
+    height: 360px;
+    gap: 20px;
+    overflow-x: scroll;
+}
+.box-6{
+    background-color: goldenrod;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 360px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.box-7{
+    background-color: goldenrod;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 360px;
+    gap: 20px;
+    justify-content: space-between;
+}
+.box-8{
+    background-color: goldenrod;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 360px;
+    gap: 20px;
+    justify-content: space-evenly;
+}
+.box-9{
+    background-color: goldenrod;
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+    height: 360px;
+    gap: 20px;
+    justify-content: flex-start;
+}
+.box-10{
+    background-color: goldenrod;
+    display: flex;
+    width: 100%;
+    height: 360px;
+    gap: 20px;
+    justify-content: flex-start;
+    flex-direction: row-reverse;
+}
+.box-11{
+    background-color: goldenrod;
+    display: flex;
+    width: 100%;
+    height: 360px;
+    gap: 20px;
+    justify-content: center;
+    flex-direction: row;
+}
+.box-12{
+    background-color: goldenrod;
+    display: flex;
+    width: 100;
+    height: 100vh;
+    flex-direction: row;
+    justify-content: center;
+     align-items: center;
+}
+.box-13{
+    background-color: goldenrod;
+    display: flex;
+    width: 100%;
+    height: 600px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+     align-items: flex-start;
+     gap: 20px;
+}
+.box14 {
+    background-color: rgb(232, 230, 231);
+    width: 70%;
+    margin-left: 15%;
+    height: 650px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    gap: 20px;
+    flex-wrap: nowrap;
+    margin-bottom: 50px;
+
+    
+}
+.box14-1{
+   
+    width: 150px;
+    height: 320px;
+    background-color: rgb(210, 208, 209);
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+
+
+}
+.data01 {
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; /* Colocar los elementos en columnas */
+  height: 200px; /* Altura del contenedor (ajusta según tus necesidades) */
+  border-radius: 100%;
+  padding: 10px; /* Espaciado interno para separar el texto del borde */
+ 
+}
+.p{
+    font-weight: bold;
+  color: white;
+}
+.numero {
+    font-size: 100%; /* Tamaño del número al 50% del tamaño del contenedor */
+    font-weight: bold;
+    color: white;
+  }
+  .contenedor-texto {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-end; /* Alinear el contenido en la parte inferior */
+    height: 350px; /* Altura del contenedor (ajusta según tus necesidades) */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px; /* Espaciado interno para separar el texto del borde */
+  }
+  .numero1 {
+    font-size: 100%; /* Tamaño del número al 50% del tamaño del contenedor */
+    font-weight: bold;
+    color: white;
+  }
+  .contenedor-texto1 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-end; /* Alinear el contenido en la parte inferior */
+    height: 170px; /* Altura del contenedor (ajusta según tus necesidades) */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px; /* Espaciado interno para separar el texto del borde */
+  }
+  
+.box14-2{
+    
+    width: 150px;
+    height: 120px;
+    background-color: rgb(210, 208, 209);
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+
+}
+.numero2 {
+    font-size: 100%; /* Tamaño del número al 50% del tamaño del contenedor */
+    font-weight: bold;
+    color: white;
+  }
+  .contenedor-texto2 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-end; /* Alinear el contenido en la parte inferior */
+    height: 300px; /* Altura del contenedor (ajusta según tus necesidades) */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px; /* Espaciado interno para separar el texto del borde */
+  }
+  .data02 {
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; /* Colocar los elementos en columnas */
+  height: 560px; /* Altura del contenedor (ajusta según tus necesidades) */
+  border-radius: 100%;
+  padding: 10px; /* Espaciado interno para separar el texto del borde */
+ 
+}
+.p{
+    font-weight: bold;
+  color: white;
+}
+.box14-3{
+    
+    width: 150px;
+    height: 250px;
+    background-color: rgb(210, 208, 209);
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+ 
+}
+.numero3 {
+    font-size: 100%; /* Tamaño del número al 50% del tamaño del contenedor */
+    font-weight: bold;
+    color: white;
+  }
+  .contenedor-texto3 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-end; /* Alinear el contenido en la parte inferior */
+    height: 190px; /* Altura del contenedor (ajusta según tus necesidades) */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px; /* Espaciado interno para separar el texto del borde */
+  }
+  .data03 {
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; /* Colocar los elementos en columnas */
+  height: 290px; /* Altura del contenedor (ajusta según tus necesidades) */
+  border-radius: 100%;
+  padding: 10px; /* Espaciado interno para separar el texto del borde */
+ 
+}
+.p{
+    font-weight: bold;
+  color: white;
+}
+.box14-4{
+    
+    width:150px;
+    height: 180px;
+    background-color: rgb(210, 208, 209);
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+
+}
+.numero4 {
+    font-size: 100%; /* Tamaño del número al 50% del tamaño del contenedor */
+    font-weight: bold;
+    color: white;
+  }
+  .contenedor-texto4 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-end; /* Alinear el contenido en la parte inferior */
+    height: 400px; /* Altura del contenedor (ajusta según tus necesidades) */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px; /* Espaciado interno para separar el texto del borde */
+  }
+  .data04 {
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; /* Colocar los elementos en columnas */
+  height: 500px; /* Altura del contenedor (ajusta según tus necesidades) */
+  border-radius: 100%;
+  padding: 10px; /* Espaciado interno para separar el texto del borde */
+ 
+}
+.p{
+    font-weight: bold;
+  color: white;
+}
+.box14-5{
+    width: 150px;
+    height: 355px;
+    background-color: rgb(210, 208, 209);
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+
+}
+.numero1 {
+    font-size: 100%; /* Tamaño del número al 50% del tamaño del contenedor */
+    font-weight: bold;
+    color: white;
+  }
+  .contenedor-texto1 {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: flex-end; /* Alinear el contenido en la parte inferior */
+    height: 170px; /* Altura del contenedor (ajusta según tus necesidades) */
+    background-color: transparent; /* Fondo transparente */
+    padding: 10px; /* Espaciado interno para separar el texto del borde */
+  }
+  .data05 {
+    display: flex;
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  flex-direction: column; /* Colocar los elementos en columnas */
+  height: 100px; /* Altura del contenedor (ajusta según tus necesidades) */
+  border-radius: 100%;
+  padding: 10px; /* Espaciado interno para separar el texto del borde */
+ 
+}
+.p{
+    font-weight: bold;
+  color: white;
+}
+.boxa{
+    width: 150px;
+    background-color: rgb(255, 194, 0);
+    height: 600px;
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+}
+.boxb{
+    width: 150px;
+    background-color: rgb(0, 161, 239);
+    height: 600px;
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+}
+.boxc{
+    width: 150px;
+    background-color: rgb(8, 88, 151);
+    height: 600px;
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+}
+.boxd{
+    width: 150px;
+    background-color: rgb(154, 210, 24);
+    height: 600px;
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+}
+.boxe{
+    width: 150px;
+    background-color:rgb(230, 7, 114);
+    height: 600px;
+    box-shadow: inset 0 0 20px 5px rgba(90, 89, 89, 0.5);
+}
+.año{
+    background-color: red;
+}

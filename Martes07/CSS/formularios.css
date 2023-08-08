@@ -1,0 +1,58 @@
+form{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid dodgerblue;
+    width: 500px;
+    font-size: 1.2em;
+}
+.form-title{
+    width: 100;
+    background-color: rgb(0, 153, 209);
+    height: 40px;
+}
+.txt-title{
+    font-size: 1em;
+    font-weight: 900;
+    color: white;
+    margin-left: 25px;
+    line-height: 40px;
+}
+.txt-inicio{
+    color: rgb(0, 153, 209);
+    font-size: 1.5em;
+}
+.from-box{
+ padding: 15px 45px;
+}
+h1{
+ text-align: center;
+}
+input [type="text"], input[type="submit"]{
+    display: block;
+    font-size: 1.2em;
+}
+select{
+    display: block;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+label{
+    display: block;
+    margin: 30px 0 15px 0;
+}
+.from-bas{
+    display: flex;
+    justify-content: center;
+    
+}
+input[type="submit"]{
+    width: 300px;
+    margin-left: 15px;
+    background-color: rgb(0, 105, 167);
+    border: 0;
+    color: white;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 0.9em;
+    margin-top: 30px;
+    font-weight: 700;
+}

@@ -1,0 +1,39 @@
+.box-style{
+     width: 400px;
+     display: inline-block;
+     margin-top: 30px;
+     margin-right: 30px;
+     margin-bottom: 30px;
+     margin-left: 30px;
+     margin: 30px;
+     padding-top: 25px;
+     padding-left: 25px;
+     padding-bottom: 25px;
+     padding-right: 25px;
+     padding: 30px;
+     text-align: justify;
+     /*Por de defecto viene en 0*/
+     letter-spacing: .1em;
+      /*Por de defecto viene en 0*/
+     word-spacing: .2em;
+      /*Por de defecto viene en 1.2em*/
+     line-height: 2em;
+}
+.box-1 {
+     background-color: aquamarine; 
+     /* grosor del borde, tipo de borde y color de borde*/
+     border: 2px solid rgb(64, 64, 64 )
+}
+.box-2 {
+       border: 1px dotted violet;
+}
+.box-3 {
+       border: 5px dashed blue;
+}
+.box-4 {
+       border: 5px double darkmagenta;
+}
+p {
+    font-size: 1.4em;
+    color: rgb(48, 48, 48);
+}
