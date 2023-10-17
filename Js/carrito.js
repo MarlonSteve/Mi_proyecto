@@ -17,10 +17,10 @@ boxPlus.addEventListener("click", function(){
         subTotal.innerHTML = Intl.NumberFormat("de-De").format(valorSubtotal);
 
         if(boxUnidades.innerHTML == 1){
-            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "Producto";
+            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "  Producto";
         }
         else{
-            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "Productos";
+            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "  Productos";
         }
     };
 });
@@ -34,10 +34,10 @@ boxMinus.addEventListener("click", function(){
         subTotal.innerHTML = Intl.NumberFormat("de-De").format(valorSubtotal);
 
         if(boxUnidades.innerHTML == 1){
-            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "Producto";
+            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "  Producto";
         }
         else{
-            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "Productos";
+            document.getElementById("cantProductos").innerHTML = boxUnidades.innerHTML + "  Productos";
         }
     };
 });
