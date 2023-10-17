@@ -5,7 +5,7 @@ let subTotal = document.getElementById("subTotal");
 const valorUnidad = 120000;
 const valorUnidadStr = Intl.NumberFormat("de-De").format(valorUnidad);
 
-document.getElementById("precioUnidad").innerHTML = "$" + valorUnidad;
+document.getElementById("precioUnidad").innerHTML = "$" + valorUnidadStr;
 
 
 boxPlus.addEventListener("click", function(){
