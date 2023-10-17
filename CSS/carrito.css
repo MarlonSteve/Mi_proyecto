@@ -4,8 +4,11 @@
     box-sizing: border-box;
 }
 .main-content{
-    margin: 20px 20px 0 20px;
-    font-family: 'poppins';
+    width: 550px;
+    position: absolute;
+    top: 100px;
+    margin: 10px 10px 0 10px;
+    font-family: 'Poppins';
 }
 .lbl-subtotal{
     font-size: 1.7em;
@@ -31,6 +34,7 @@
 }
 .box-img{
     grid-area: derecha;
+    padding-right: 25px;
 }
 .info{
     grid-area: izquierda;
@@ -84,4 +88,14 @@
 .box-plus{
     border-top-right-radius: 20px;
     border-bottom-right-radius: 20px;
+}
+
+.box-img-ipad-mini{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-ipad-mini{
+    width: 713px;
 }
