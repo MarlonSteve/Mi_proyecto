@@ -9,7 +9,7 @@ body{
   display: grid;
 
   grid-template: "empty-lef             main-page                           empty-right" /
-                      minmax(50px,1fr)   minmax(700px,1500px)                 minmax(50px,1fr);
+                      minmax(50px,1fr)   minmax(150px,1500px)                 minmax(50px,1fr);
 }
 .main-page{
     grid-area: main-page;
@@ -21,7 +21,7 @@ header{
     gap: 20px;
     display: grid;
     grid-template: "   logo    main-menu    " /
-                       150px   minmax(700px,1fr);
+                       150px   minmax(200px,1fr);
 }
 .logo{
     grid-area: logo;
@@ -83,56 +83,37 @@ header{
     color: rgb(64,64,64);
 }
 
-@media (max-width: 768px) {
+@media only screen and (max-width: 640px) {
+  .main-content{
+    width: 83%;
+    grid-template:
+                  "main-img "500px
+                  "article1 article2"auto
+                  "article3 article4"auto
+                  "article5 article6"auto;
+  }
     header {
-       columns: auto;
-        padding: 10px;
-        color: white;
+      width: 83%;
+      grid-template:"logo      main-menu"/
+                      145px   minmax(300px, 1fr);
+      
       }
-    /* Estilos para el logo */
-    .logo {
-      max-width: 100%;
-      height: auto;
+    
+  }
+  @media only screen and (max-width: 640px){
+    .main-content{
+      width: 83%;
+    grid-template: "main-img"350px
+                   "article1"auto
+                   "article2"auto
+                   "article3"auto
+                   "article4"auto
+                   "article5"auto
+                   "article6"auto;
     }
-  
-    /* Estilos para el menú principal */
-    .main-menu {
-      
-      padding: 10px;
-    }
-  
-    /* Estilos para el contenido principal */
-    .main-content {
-      padding: 20px;
-      background-color: #f7f7f7;
-    }
-  
-    /* Estilos para la imagen principal */
-    .main-img {
-      max-width: 100%;
-      height: auto;
-    }
-  
-    /* Estilos para el texto estilizado */
-    .style-text {
-      font-style: italic;
-      
-    }
-  
-    /* Estilos para los artículos */
-    .article-1, .article-2, .article-3, .article-4 {
-      margin-bottom: 20px;
-    }
-  
-    /* Estilos para las imágenes en los artículos */
-    .img-article {
-      max-width: 100%;
-      height: auto;
-    }
-  
-    /* Estilos para los textos en los artículos */
-    .txt {
-      font-size: 14px;
-      line-height: 1.5;
+    .hader{
+      width: 83%;
+      grid-template:"logo       main-menu"/
+                    125px   minmax(300px, 1fr);
     }
   }
