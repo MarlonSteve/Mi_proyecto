@@ -18,19 +18,34 @@ let auto3 = new Automovil("Renault", " Kwid 1.0 Zen", "$40000000", "2021", "33.3
 let auto4 = new Automovil("BMW", "2.0 Xdrive30i", "$185000000", "2019", "30.445 ", "Bogota D.C.","img/carro4.png");
 
 let boxProductos = document.getElementById("boxProductos");
-let inputBusqueda = document.getElementById("inputBusqueda").value;
-window.addEventListener("keydown", (event) => {
-    if(event.key == "Volkswagen"){
-        
-        if(inputBusqueda.innerText == "Volkswagen")
-        cargarAutomovil(auto1);
-    }
-});
 
 cargarAutomovil(auto1);
 cargarAutomovil(auto2);
 cargarAutomovil(auto3);
 cargarAutomovil(auto4);
+
+
+window.addEventListener("keydown", (event) => {
+    let inputBusqueda = document.getElementById("inputBusqueda").value;
+    if(event.key == "Enter"){
+        boxProductos.innerHTML = "";
+        let inputBusquedaAux = inputBusqueda.toLowerCase();        
+        if(inputBusquedaAux == "volkswagen"){
+        cargarAutomovil(auto1);
+    }
+    else if(inputBusquedaAux == "toyota"){
+        cargarAutomovil(auto2);
+    }
+    else if(inputBusquedaAux == "renault"){
+        cargarAutomovil(auto3);
+    }
+    else if (inputBusquedaAux == "bmw"){
+        cargarAutomovil(auto4);
+    }
+ }
+});
+
+
 
 function cargarAutomovil(auto){
 
